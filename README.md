@@ -17,13 +17,13 @@ To use these scripts, you should have Python 3 installed on your machine. You ca
 ### create_adjacency_list.py:
 To create the adjacency list of a graph, you can run the script and pipe the input graph to it, as follows:
 
-$ cat input_graph.txt | python bfs_shortest_paths.py 847
+`$ cat input_graph.txt | python bfs_shortest_paths.py 847`
 
 This will read the input graph from the input_graph.txt file, create its adjacency list, and output it to the adjacency_list.txt file.
 
 ## bfs_shortest_paths.py:
 To compute the shortest paths from a given vertex in a graph, you can run the script and pass the starting vertex ID as a command-line argument, as follows:
 
-$ cat input_graph.txt | python bfs_shortest_paths.py 847
+`$ cat input_graph.txt | python bfs_shortest_paths.py 847`
 
 This will read the input graph from the input_graph.txt file, perform a BFS starting from vertex 847, and output the shortest paths to all other vertices reachable from it to the standard output.
