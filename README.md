@@ -27,3 +27,11 @@ To compute the shortest paths from a given vertex in a graph, you can run the sc
 `$ cat input_graph.txt | python bfs_shortest_paths.py 847`
 
 This will read the input graph from the input_graph.txt file, perform a BFS starting from vertex 847, and output the shortest paths to all other vertices reachable from it to the standard output.
+
+## Hadoop Map-Reduce
+
+Overall implementation is focused on hadoop for big data problems using Map-Reduce. You can run it using:
+
+`$ hadoop jar path/to/streamingfile -file path/to/mapper.py -mapper 'python3 mapper.py' -file path/to/reducer.py -reducer 'python3 reducer.py' -input /path/to input file in hdfs/input.txt -output path/to outputfile in hdfs/output`
+
+This step follows after uploading the concerned files on hdfs.
