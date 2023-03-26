@@ -1,7 +1,7 @@
 # Shortest-Path-Analysis-on-Large-Graphs-using-Hadoop
 This repository contains two Python scripts and one Jupyter Notebook:
 
-## A2-Question No. 1 (1).ipynb:
+## BFS-Large-Graphs.ipynb:
 This notebook is the simple implementation of the BFS on very large size graph of 4.3 Million Nodes. We used this to compare the efficieny of the algorithim if we run it as a Map Reduce Job of Apache Hadoop.
 
 ## create_adjacency_list.py:
